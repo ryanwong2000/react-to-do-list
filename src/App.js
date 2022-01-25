@@ -1,24 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import TodoList from './TodoList';
+import React, { useState, useRef } from 'react';
 
 function App() {
+  const [todos, setTodos] = useState([]); //obj destructuring
+
+  function handleAddTodo(e) {}
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <TodoList todoList={todos} />
+      <input ref={todoNameRef} type="text" />
+      <button onCLick={handleAddTodo}> Add To Do</button>
+      <button>Clear Completed Tasks</button>
+      <div>0 left to do</div>
+    </>
   );
 }
 
