@@ -2,6 +2,11 @@
 
 Following this video by WebDevSimplified on YouTube: https://www.youtube.com/watch?v=hQAHSlTtcmY
 
+## Setup
+
+- Install in project directory `npx create-react-app .` -> directory must have no spaces or capital letters
+- Remove the `setupTests` file, `.css` files, `logo` files, `reportWebVitals.js`
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
