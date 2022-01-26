@@ -1,3 +1,5 @@
+# To Do List App - Learning React
+
 Following this video by WebDevSimplified on YouTube: https://www.youtube.com/watch?v=hQAHSlTtcmY
 
 # Getting Started with Create React App
